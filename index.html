@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Empresa de Tecnologia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1 class="logo">HalissonTech</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#testimonials">Testemunhos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="cta-btn">Entre em Contato</a>
+    </div>
+</header>
+
+<section id="home">
+    <div class="swiper-container banner-swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/teste.png" alt="Slide 1">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img2.jpg" alt="Slide 2">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img3.jpg" alt="Slide 3">
+            </div>
+        </div>
+        <div class="swiper-pagination banner-pagination"></div>
+        <div class="swiper-button-next banner-button-next"></div>
+        <div class="swiper-button-prev banner-button-prev"></div>
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="section-title">Sobre Nós</h2>
+    <p class="description">
+        Somos uma empresa dedicada a criar soluções tecnológicas inovadoras, com o objetivo de transformar o futuro e fornecer ferramentas eficientes para empresas e indivíduos.
+    </p>
+</section>
+
+<section id="services" class="services">
+    <h2 class="section-title">Serviços</h2>
+    <div class="swiper-container services-swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <img src="img/desenvolvimento.jpg" class="service-image" alt="Serviço 1">
+                    <h3>Desenvolvimento de software</h3>
+                    <p class="service-price">R$ 5000,00</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <img src="img/suporte.jpg" class="service-image" alt="Serviço 2">
+                    <h3>Suporte técnico</h3>
+                    <p class="service-price">R$ 1500,00</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <img src="img/consultoria.jpg" class="service-image" alt="Serviço 3">
+                    <h3>Consultoria de TI</h3>
+                    <p class="service-price">R$ 1750,00</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <img src="img/cloud.jfif" class="service-image" alt="Serviço 4">
+                    <h3>Cloud computing</h3>
+                    <p class="service-price">R$ 3400,00</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <img src="img/segurança.jpg" class="service-image" alt="Serviço 5">
+                    <h3>Segurança da informação</h3>
+                    <p class="service-price">R$ 4500,00</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <img src="img/apps.jpg" class="service-image" alt="Serviço 6">
+                    <h3>Desenvolvimento de apps</h3>
+                    <p class="service-price">R$ 6000,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination services-pagination"></div>
+        <div class="swiper-button-next services-button-next"></div>
+        <div class="swiper-button-prev services-button-prev"></div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2 class="section-title">Depoimentos</h2>
+    <div class="testimonials-container"></div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contato</h2>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit" class="btn-default">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 HalissonTech - Todos os direitos reservados</p>
+        <ul>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Redes Sociais</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
