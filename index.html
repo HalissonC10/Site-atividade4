@@ -15,6 +15,10 @@
 <header>
     <div class="container">
         <h1 class="logo">HalissonTech</h1>
+        <button class="hamburger"><i class="fas fa-bars"></i></button>
+        <button class="nav-toggle">☰</button>
+
+
         <nav>
             <ul>
                 <li><a href="#about">Sobre</a></li>
@@ -23,6 +27,11 @@
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <a href="#contact" class="cta-btn">Entre em Contato</a>
     </div>
 </header>
@@ -136,6 +145,12 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
+</script>
 <script src="script.js"></script>
 
 </body>
